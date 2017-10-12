@@ -12,10 +12,9 @@ jobs:
       - run:
           name: install dependencies
           command:
-            python setup.py install
+            python3 setup.py install
 
       - run:
           name: run tests
-          command: 
+          command:
 	    python ./Tests/tests.py
-	    python ./Tests/tests_2.py
