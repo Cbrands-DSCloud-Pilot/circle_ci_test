@@ -1,3 +1,3 @@
 def hello_world():
   #Test
-  return 'hello_world3'
+  return 'hello_world'
