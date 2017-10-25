@@ -16,5 +16,6 @@ jobs:
 
       - run:
           name: run tests
-          command:
+          command: |
            python3 ./Tests/tests.py
+           python3 ./Tests/tests2.py
